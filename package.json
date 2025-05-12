@@ -1,11 +1,19 @@
 {
-    "name": "biscuit",
+    "name": "@somfuncky/biscuit",
     "version": "1.0.0",
     "description": "A typescript library designed to make cookie management object-oriented and developer-friendly.",
     "keywords": [
       "cookies",
-      "web"
+      "web",
+      "browser",
+      "storage",
+      "biscuit"
     ],
+    "files": [
+      "dist"
+    ],
+    "types": "dist/index.d.ts",
+    "module": "dist/index.js",
     "homepage": "https://github.com/SomPascal/biscuit#readme",
     "bugs": {
       "url": "https://github.com/SomPascal/biscuit/issues"
@@ -15,6 +23,11 @@
       "url": "git+https://github.com/SomPascal/biscuit.git"
     },
     "license": "MIT",
+    "exports": {
+      ".": {
+        "import": "./dist/index.js"
+      }
+    },
     "author": "Ndjengwes Ruben",
     "type": "module",
     "main": "index.js",

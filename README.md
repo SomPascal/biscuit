@@ -36,13 +36,7 @@ Managing cookies in JavaScript has always been awkward—manually splitting stri
 With npm
 
 ```bash
-npm install biscuit
-```
-
-With yarn
-
-```bash
-yarn add biscuit-cookie
+npm install @somfuncky/biscuit
 ```
 
 ## INTRODUCTION
