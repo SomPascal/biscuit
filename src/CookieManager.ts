@@ -14,6 +14,11 @@ export class CookieManager {
     document.cookie = cookie.toString();
   }
 
+  public has(name: string): boolean {
+    const cookies = this.parseCookies();
+    return Object.prototype.hasOwnProperty.call(cookies, name);
+  }
+
   public delete(name: string) 
   {
     this.set(new Cookie(name, "", { expires: new Date(0) }));

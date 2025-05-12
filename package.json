@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "author": "Ndjengwes Ruben",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
   "dev": "tsup src/index.ts --watch",
